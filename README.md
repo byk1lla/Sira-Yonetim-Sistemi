@@ -10,7 +10,7 @@ Bu proje, kullanıcıların kayıt olup sıra numarası alabilecekleri ve sıra 
 
 ## Dosya Yapısı
 
-- `sira.php`: Sıra numaralarını görüntülemek ve kullanıcıları silmek için kullanılan PHP dosyasıdır. Bu dosyayı düzenleyerek sıradaki kullanıcıları ve bilgilerini görüntülemek için belirli IP adreslerine veya kullanıcılara izin verebilirsiniz. Dosyanın en üst kısmında bulunan `authorizedIPs` ve `authorizedUsers` değişkenlerini düzenleyerek izin verilen IP adreslerini veya kullanıcıları belirleyebilirsiniz.
+- `sira.php`: Sıra numaralarını görüntülemek ve kullanıcıları silmek için kullanılan PHP dosyasıdır. Bu dosyayı düzenleyerek sıradaki kullanıcıları ve bilgilerini görüntülemek için belirli IP adreslerine veya kullanıcılara izin verebilirsiniz.
 - `kayitol.php`: Kullanıcıların kayıt olmasını sağlayan ve kullanıcı bilgilerini veritabanına ekleyen PHP dosyasıdır.
 - `index.php`: Kullanıcıların sıra numaralarını sorgulayabilecekleri ana sayfadır. Kullanıcılar bu sayfada sıra numaralarını ve kayıtlı oldukları kullanıcı adlarını görebilirler.
 - `inc/connection.php`: Veritabanı bağlantısı için gerekli PHP dosyasıdır. Bu dosyada veritabanı sunucusuna bağlanmak için kullanılan ayarlar yer almaktadır.
